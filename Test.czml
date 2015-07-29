@@ -1,51 +1,50 @@
-
 [
- 	{
-    		"id":"document",
-    		"version":"1.0"
-  	},
-  	{
-    		"id":"Vehicle",
-    		"availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
-    		"point":{
-			"color":{
-        			"rgba":[
-          				0,255,255,255
-        			]
-      			},
+  {
+    "id":"document",
+    "version":"1.0"
+  },
+  {
+     "id":"Vehicle",
+     "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
+     "point":{
+		"color":{
+       			"rgba":[
+       				0,255,255,255
+       				]
+ 			},
 		"outlineColor":
 		"color":{
         		"rgba":[
           			0,128,128,128
-        		]
-      		},
+        			]
+      			},
 		"outlineWidth":2.0,
-    		'pixelSize': 3.0,
-    		'show': true
-    },
-    "path":{
-      "material":{
+    		"pixelSize": 3.0,
+    		"show": true
+     	    },
+     "path":{
+        "material":{
           "solidColor":{
             "color":{
                 "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
                 "rgba":[
                   255,255,0,255
-                ]
+                       ]
+                    }
               }
-            }
-      },
-      "width":[
-        {
-          "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
-          "number":5.0
-        }
-      ],
-      "show":[
-        {
-          "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
-          "boolean":true
-        }
-      ]
+          },
+        "width":[
+         {
+           "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
+           "number":5.0
+         }
+        ],
+        "show":[
+          {
+            "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
+            "boolean":true
+          }
+        ]
     },
     "position":{
       "interpolationAlgorithm":"LAGRANGE",
@@ -447,4 +446,3 @@
     }
   }
 ]
-
