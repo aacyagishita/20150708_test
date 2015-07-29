@@ -21,33 +21,13 @@
       "style":"FILL","text":"Vehicle","verticalOrigin":"CENTER"
     },
     "path":{
-        "material":{
-          "solidColor":{
-            "color":{
+        "material":{"solidColor":{"color":{
                 "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
-                "rgba":[
-                  255,255,0,255
-                       ]
-                    }
-              }
-          },
-        "width":[
-         {
-           "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
-           "number":5.0
-         }
-        ],
-        "show":[
-          {
-            "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
-            "boolean":true
-          }
-        ]
-    },
+                "rgba":[255,255,0,255]}}},
+        "width":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","number":5.0}],
+        "show":[{ "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}]},
     "position":{
-      "interpolationAlgorithm":"LAGRANGE",
-      "interpolationDegree":1,
-      "epoch":"2012-08-04T16:00:00Z",
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
       "cartesian":[
         0.0,-2379754.6637012,-4665332.88013588,3628133.68924173,
         10.0,-2379510.08905552,-4665419.64840452,3628182.20006795,
