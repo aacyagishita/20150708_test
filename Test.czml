@@ -4,25 +4,41 @@
     "version":"1.0"
   },
   {
-     "id":"Vehicle",
-     "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
-     "point":{
-		"color":{
-       			"rgba":[
-       				0,255,255,255
-       				]
- 			},
-		"outlineColor":
-		"color":{
-        		"rgba":[
-          			0,128,128,128
-        			]
-      			},
-		"outlineWidth":2.0,
-    		"pixelSize": 3.0,
-    		"show": true
-     	    },
-     "path":{
+    "id":"Vehicle",
+    "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
+    "label":{
+      "fillColor":[
+        {
+          "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
+          "rgba":[
+            255,255,0,255
+          ]
+        }
+      ],
+      "font":"bold 10pt Segoe UI Semibold",
+      "horizontalOrigin":"LEFT",
+      "outlineColor":{
+        "rgba":[
+          0,0,0,255
+        ]
+      },
+      "pixelOffset":{
+        "cartesian2":[
+          10.0,0.0
+        ]
+      },
+      "scale":1.0,
+      "show":[
+        {
+          "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
+          "boolean":true
+        }
+      ],
+      "style":"FILL",
+      "text":"Vehicle",
+      "verticalOrigin":"CENTER"
+    },
+    "path":{
         "material":{
           "solidColor":{
             "color":{
