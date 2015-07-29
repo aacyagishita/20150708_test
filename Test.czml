@@ -7,9 +7,14 @@
     "id":"Vehicle",
     "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
     "point":{
+        "Color":{
+          "rgba":[
+           255,128,0,255
+           ]
+        },
         "outlineColor":{
           "rgba":[
-           0,0,0,255
+           255,0,0,255
            ]
         },
 	"outlineWidth":2.0,
