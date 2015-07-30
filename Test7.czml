@@ -18,7 +18,7 @@
 }
 },
 {
-    "id":"Vehicle"1 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle1" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
