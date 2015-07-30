@@ -12,7 +12,7 @@
     },
     "position":{
       "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      " cartographicDegrees":[
+      "cartographicDegrees":[
         0.0,40.6637012,135.88013588,36.68924173,
         3894.996219574019,40.52323822,135.21232197,36.52171165
       ]
@@ -29,7 +29,7 @@
     },
     "position":{
       "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      "cartesian":[
+      "cartographicDegrees":[
         0.0,40.2573735,135.53460908,367.52864419,
         3894.996219574019,40.9290326,135.69232926,364.34294359
       ]
@@ -46,7 +46,7 @@
     },
     "position":{
       "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      "cartesian":[
+      "cartographicDegrees":[
         0.0,40.9270326,135.53460904,362.52864419,
         3894.996219574019,40.2573735,135.69232926,364.34294359
       ]
@@ -63,7 +63,7 @@
     },
     "position":{
       "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      "cartesian":[
+      "cartographicDegrees":[
         0.0,40.70931983,135.71326052,364.01116407,
         3894.996219574019,40.83314447,135.72302389,362.37190511
       ]
