@@ -45,59 +45,5 @@
     }
   }
 
-  {
-    "id":"Vehicle2", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
-    "parent":"list",
-    "point":{
-        "Color":{"rgba":[255,128,0,255]},
-        "outlineColor":{"rgba":[255,0,0,255]},
-	"outlineWidth":2.0,
-    	"pixelSize": 3.0,
-        "show":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}]
-    },
-    "position":{
-      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      "cartesian":[
-        0.0,-2366021.9270326,-4671394.53460904,3629307.52864419,
-        3894.996219574019,-2311939.2573735,-4684576.69232926,3647008.34294359
-      ]
-    }
-  }
 
-  {
-    "id":"Vehicle3", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
-    "parent":"list",
-    "point":{
-        "Color":{"rgba":[255,128,0,255]},
-        "outlineColor":{"rgba":[255,0,0,255]},
-	"outlineWidth":2.0,
-    	"pixelSize": 3.0,
-        "show":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}]
-    },
-    "position":{
-      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      "cartesian":[
-        0.0,-2366021.9270326,-4671394.53460904,3629307.52864419,
-        3894.996219574019,-2311939.2573735,-4684576.69232926,3647008.34294359
-      ]
-    }
-  }
-  {
-    "id":"Vehicle4", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
-    "parent":"list",
-    "point":{
-        "Color":{"rgba":[255,128,0,255]},
-        "outlineColor":{"rgba":[255,0,0,255]},
-	"outlineWidth":2.0,
-    	"pixelSize": 3.0,
-        "show":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}]
-    },
-    "position":{
-      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
-      "cartesian":[
-        0.0,-2372463.70931983,-4680268.71326052,3641563.01116407,
-        3894.996219574019,-2329240.83314447,-4668254.72302389,3629143.37190511
-      ]
-    }
-  }
 ]
