@@ -2,7 +2,12 @@
   { "id":"document", "version":"1.0"
   },
   {
+    "id":"list",
+    "name":"Access",
+  },
+  {
     "id":"Vehicle", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
+    "parent":"list",
     "point":{
         "Color":{"rgba":[255,128,0,255]},
         "outlineColor":{"rgba":[255,0,0,255]},
@@ -41,7 +46,7 @@
   }
 
   {
-    "id":"Vehicle", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
+    "id":"Vehicle2", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
     "point":{
         "Color":{"rgba":[255,128,0,255]},
         "outlineColor":{"rgba":[255,0,0,255]},
@@ -59,7 +64,7 @@
   }
 
   {
-    "id":"Vehicle2", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
+    "id":"Vehicle3", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
     "point":{
         "Color":{"rgba":[255,128,0,255]},
         "outlineColor":{"rgba":[255,0,0,255]},
@@ -76,7 +81,7 @@
     }
   }
   {
-    "id":"Vehicle3", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
+    "id":"Vehicle4", "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
     "point":{
         "Color":{"rgba":[255,128,0,255]},
         "outlineColor":{"rgba":[255,0,0,255]},
