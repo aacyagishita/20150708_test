@@ -1,0 +1,37 @@
+[
+  { "id":"document", "version":"1.0" },
+  {
+    "id":"Vehicle", "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "point":{
+        "Color":{"rgba":[255,128,0,255]},
+        "outlineColor":{"rgba":[255,0,0,255]},
+	"outlineWidth":2.0,
+    	"pixelSize": 3.0,
+        "show":[{"interval":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z","boolean":true}]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
+      "cartographicDegrees":[
+       0.0,139.53026567,35.56874439,50.00000000
+       86400.0,139.44631500,35.54494955,50.00000000
+      ]
+    }
+  },
+  {
+    "id":"Vehicle2", "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "point":{
+        "Color":{"rgba":[128,128,0,255]},
+        "outlineColor":{"rgba":[128,255,0,255]},
+	"outlineWidth":2.0,
+    	"pixelSize": 3.0,
+        "show":[{"interval":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z","boolean":true}]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
+      "cartographicDegrees":[
+       0.0,139.63973281,35.64327102,50.00000000
+       86400.0,139.79788721,35.71091624,50.00000000
+      ]
+    }
+  }
+]
