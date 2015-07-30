@@ -12,7 +12,7 @@
    "position":{
      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
      "cartographicDegrees":[
-     35454.0,139.53026567,35.56874439,50.0
+     0.0,139.53026567,35.56874439,50.0
      83754.0,139.44631500,35.54494955,50.0
      ]
    }
