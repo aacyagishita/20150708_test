@@ -1,7 +1,7 @@
 [
 { "id":"document", "version":"1.0" },
 {
-    "id":"Vehicle0" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+"id":"Vehicle0" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -12,13 +12,13 @@
 "position":{
 "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
 "cartographicDegrees":[
-35454.0,139.53026567,35.56874439
-83754.0,139.44631500,35.54494955
+35454.0,139.53026567,35.56874439,0
+83754.0,139.44631500,35.54494955,0
 ]
 }
 },
 {
-    "id":"Vehicle1" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+"id":"Vehicle1" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -29,8 +29,8 @@
 "position":{
 "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
 "cartographicDegrees":[
-0.0,139.63973281,35.64327102
-83716.0,139.79788721,35.71091624
+0.0,139.63973281,35.64327102,0
+83716.0,139.79788721,35.71091624,0
 ]
 }
 }
