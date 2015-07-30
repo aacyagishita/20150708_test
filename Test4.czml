@@ -10,22 +10,6 @@
     	"pixelSize": 3.0,
         "show":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}]
     },
-    "label":{
-      "fillColor":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","rgba":[255,255,0,255]}],
-      "font":"bold 10pt Segoe UI Semibold",
-      "horizontalOrigin":"LEFT",
-      "outlineColor":{"rgba":[0,0,0,255]},
-      "pixelOffset":{"cartesian2":[10.0,0.0]},
-      "scale":1.0,
-      "show":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}],
-      "style":"FILL","text":"Vehicle","verticalOrigin":"CENTER"
-    },
-    "path":{
-        "material":{"solidColor":{"color":{
-                "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z",
-                "rgba":[255,255,0,255]}}},
-        "width":[{"interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","number":5.0}],
-        "show":[{ "interval":"2012-08-04T16:00:00Z/2012-08-04T18:00:00Z","boolean":true}]},
     "position":{
       "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
       "cartesian":[
@@ -51,8 +35,8 @@
     "position":{
       "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2012-08-04T16:00:00Z",
       "cartesian":[
-        0.0,-2366021.9270326,-4671394.53460904,3629307.52864419,
-        3894.996219574019,-2311939.2573735,-4684576.69232926,3647008.34294359
+        0.0,-2311939.2573735,-4671394.53460908,3629307.52864419,
+        3894.996219574019,-2366021.9290326,-4684576.69232926,3647008.34294359
       ]
     }
   },
