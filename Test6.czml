@@ -1,0 +1,72 @@
+[
+  { "id":"document", "version":"1.0" },
+  {
+    "id":"Vehicle", "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "point":{
+        "Color":{"rgba":[255,128,0,255]},
+        "outlineColor":{"rgba":[255,0,0,255]},
+	"outlineWidth":2.0,
+    	"pixelSize": 3.0,
+        "show":[{"interval":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z","boolean":true}]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
+      "cartographicDegrees":[
+        0.0,135.88013588,40.6637012,36.68924173,
+        86400.0,135.21232197,40.52323822,36.52171165
+      ]
+    }
+  },
+  {
+    "id":"Vehicle2", "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "point":{
+        "Color":{"rgba":[128,128,0,255]},
+        "outlineColor":{"rgba":[128,255,0,255]},
+	"outlineWidth":2.0,
+    	"pixelSize": 3.0,
+        "show":[{"interval":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z","boolean":true}]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
+      "cartographicDegrees":[
+        0.0,140.2573735,35.53460908,367.52864419,
+        86400.0,140.9290326,35.69232926,364.34294359
+      ]
+    }
+  },
+  {
+    "id":"Vehicle3", "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "point":{
+        "Color":{"rgba":[64,128,255,255]},
+        "outlineColor":{"rgba":[255,0,0,255]},
+	"outlineWidth":2.0,
+    	"pixelSize": 3.0,
+        "show":[{"interval":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z","boolean":true}]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
+      "cartographicDegrees":[
+        0.0,140.9270326,35.53460904,362.52864419,
+        86400.0,140.9270326,35.69232926,364.34294359
+      ]
+    }
+  },
+  {
+    "id":"Vehicle4", "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "point":{
+        "Color":{"rgba":[255,128,0,255]},
+        "outlineColor":{"rgba":[255,0,0,255]},
+	"outlineWidth":2.0,
+    	"pixelSize": 3.0,
+        "show":[{"interval":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z","boolean":true}]
+    },
+    "position":{
+      "interpolationAlgorithm":"LAGRANGE","interpolationDegree":1,"epoch":"2013-07-07T00:00:00Z",
+      "cartographicDegrees":[
+        0.0,140.70931983,35.71326052,364.01116407,
+        86400.0,140.83314447,35.72302389,362.37190511
+      ]
+    }
+  }
+
+]
