@@ -1,7 +1,7 @@
 [
 { "id":"document", "version":"1.0" },
 {
-    "id":"Vehicle"0 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle0" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -361,7 +361,7 @@
 }
 },
 {
-    "id":"Vehicle"2 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle2" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -541,7 +541,7 @@
 }
 },
 {
-    "id":"Vehicle"3 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle3" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -712,7 +712,7 @@
 }
 },
 {
-    "id":"Vehicle"4 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle4" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -880,7 +880,7 @@
 }
 },
 {
-    "id":"Vehicle"5 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle5" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -1064,7 +1064,7 @@
 }
 },
 {
-    "id":"Vehicle"6 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle6" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -1233,7 +1233,7 @@
 }
 },
 {
-    "id":"Vehicle"7 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle7" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -1400,7 +1400,7 @@
 }
 },
 {
-    "id":"Vehicle"8 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle8" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -1569,7 +1569,7 @@
 }
 },
 {
-    "id":"Vehicle"9 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle9" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
@@ -1740,7 +1740,7 @@
 }
 },
 {
-    "id":"Vehicle"10 , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
+    "id":"Vehicle10" , "availability":"2013-07-07T00:00:00Z/2013-07-08T00:00:00Z",
 "point":{
 "Color":{"rgba":[255,128,0,255]},
 "outlineColor":{"rgba":[255,0,0,255]},
