@@ -1,6 +1,6 @@
 var viewer = new Cesium.Viewer('cesiumContainer');
 
-var camera_start = Cesium.Cartesian3.fromDegrees(139.0, 35.0, 1000);
+var camera_start = Cesium.Cartesian3.fromDegrees(139.75, 35.66, 1000);
 var camera_direction = Cesium.Cartesian3.fromDegrees(-75.0, 70.0, 0);
 
 viewer.extend(Cesium.viewerDragDropMixin);
