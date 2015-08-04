@@ -1,8 +1,18 @@
-var viewer = new Cesium.Viewer('cesiumContainer', {
- imageryProvider: new Cesium.OpenStreetMapImageryProvider({
- url: 'http://cyberjapandata.gsi.go.jp/xyz/std/', credit: '’n—‰@ƒ^ƒCƒ‹'}),
- baseLayerPicker: false });
+//var viewer = new Cesium.Viewer('cesiumContainer', {
+// imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+// url: 'http://cyberjapandata.gsi.go.jp/xyz/std/', credit: '’n—‰@ƒ^ƒCƒ‹'}),
+// baseLayerPicker: false });
 //, sceneMode : Cesium.SceneMode.SCENE2D
+
+var viewer = new Cesium.Viewer('cesiumContainer', {
+  imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+    url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
+    credit: new Cesium.Credit('‘“y’n—‰@', '', 'http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html')
+  }),
+  baseLayerPicker: false
+});
+
+
 viewer.scene.terrainProvider = new Cesium.CesiumTerrainProvider({
   url: 'http://cesiumjs.org/stk-terrain/tilesets/world/tiles'});
 
