@@ -12,7 +12,7 @@ viewer.camera.flyTo({
     destination : Cesium.Cartesian3.fromDegrees(140, 36, 15000.0)
 });
 
-viewer.camera.positionCartographic(36,140,1000); 
+//viewer.camera.positionCartographic(36,140,1000); 
 
 //viewer.camera.position(camera_start); 
 //viewer.camera.lookAt(camera_start, camera_direction, Cesium.Cartesian3.UNIT_Z); 
