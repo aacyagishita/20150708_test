@@ -12,6 +12,8 @@ viewer.camera.flyTo({
     destination : Cesium.Cartesian3.fromDegrees(-117.16, 32.71, 15000.0)
 });
 
+viewer.camera.positionCartographic(140,36,1000); 
+
 //viewer.camera.position(camera_start); 
 //viewer.camera.lookAt(camera_start, camera_direction, Cesium.Cartesian3.UNIT_Z); 
 viewer.dataSources.add(Cesium.CzmlDataSource.load('https://aacyagishita.github.io/20150708_test/Test8.czml'));
