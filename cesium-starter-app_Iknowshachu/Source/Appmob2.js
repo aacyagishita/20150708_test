@@ -3,12 +3,8 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
  url: 'http://cyberjapandata.gsi.go.jp/xyz/std/', credit: '’n—‰@ƒ^ƒCƒ‹'}),
  baseLayerPicker: false });
 //, sceneMode : Cesium.SceneMode.SCENE2D
-//viewer.scene.terrainProvider = new Cesium.CesiumTerrainProvider({
-//  url: 'http://cesiumjs.org/stk-terrain/tilesets/world/tiles'}
-
-
-
-);
+viewer.scene.terrainProvider = new Cesium.CesiumTerrainProvider({
+  url: 'http://cesiumjs.org/stk-terrain/tilesets/world/tiles'});
 
 var camera_start = Cesium.Cartesian3.fromDegrees(140, 36, 1000);
 var camera_direction = Cesium.Cartesian3.fromDegrees(0, 0, 0);
