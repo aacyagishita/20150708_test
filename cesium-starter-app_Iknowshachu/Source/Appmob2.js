@@ -12,9 +12,10 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
   baseLayerPicker: false
 });
 
+viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
 
-viewer.scene.terrainProvider = new Cesium.CesiumTerrainProvider({
-  url: 'http://cesiumjs.org/stk-terrain/tilesets/world/tiles'});
+//viewer.scene.terrainProvider = new Cesium.CesiumTerrainProvider({
+//  url: 'http://cesiumjs.org/stk-terrain/tilesets/world/tiles'});
 
 var camera_start = Cesium.Cartesian3.fromDegrees(140, 36, 1000);
 var camera_direction = Cesium.Cartesian3.fromDegrees(0, 0, 0);
