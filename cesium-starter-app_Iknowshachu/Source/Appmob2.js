@@ -9,7 +9,7 @@ var camera_direction = Cesium.Cartesian3.fromDegrees(0, 0, 0);
 viewer.extend(Cesium.viewerDragDropMixin);
 
 viewer.camera.flyTo({
-    destination : Cesium.Cartesian3.fromDegrees(140, 36, 15000.0)
+    destination : Cesium.Cartesian3.fromDegrees(140, 35.5, 50000.0)
 });
 
 //viewer.camera.positionCartographic(36,140,1000); 
