@@ -11,7 +11,7 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
 //  sceneMode : Cesium.SceneMode.SCENE2D
 //});
 
-viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
+//viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
 
 //viewer.scene.terrainProvider = new Cesium.CesiumTerrainProvider({
 //  url: 'http://cesiumjs.org/stk-terrain/tilesets/world/tiles'});
