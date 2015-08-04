@@ -1,4 +1,7 @@
-var viewer = new Cesium.Viewer('cesiumContainer');
+var viewer = new Cesium.Viewer('cesiumContainer'
+, {
+    sceneMode : Cesium.SceneMode.SCENE2D
+});
 
 var camera_start = Cesium.Cartesian3.fromDegrees(140, 36, 1000);
 var camera_direction = Cesium.Cartesian3.fromDegrees(0, 0, 0);
