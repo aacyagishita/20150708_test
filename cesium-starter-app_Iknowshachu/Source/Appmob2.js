@@ -1,17 +1,15 @@
-//var viewer = new Cesium.Viewer('cesiumContainer', {
-// imageryProvider: new Cesium.OpenStreetMapImageryProvider({
-// url: 'http://cyberjapandata.gsi.go.jp/xyz/std/', credit: '’n—‰@ƒ^ƒCƒ‹'}),
-// baseLayerPicker: false });
-//
-
 var viewer = new Cesium.Viewer('cesiumContainer', {
-  imageryProvider: new Cesium.OpenStreetMapImageryProvider({
-    url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
-    credit: new Cesium.Credit('‘“y’n—‰@', '', 'http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html')
-  }),
-  baseLayerPicker: false,
-  sceneMode : Cesium.SceneMode.SCENE2D
-});
+ baseLayerPicker: false,
+ sceneMode : Cesium.SceneMode.SCENE2D });
+
+//var viewer = new Cesium.Viewer('cesiumContainer', {
+//  imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+//    url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
+//    credit: new Cesium.Credit('‘“y’n—‰@', '', 'http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html')
+//  }),
+//  baseLayerPicker: false,
+//  sceneMode : Cesium.SceneMode.SCENE2D
+//});
 
 viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
 
