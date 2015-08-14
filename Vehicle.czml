@@ -6,7 +6,7 @@
   },
   {
     "id":"Vehicle",
-    "description":"AAA<br>takeda",
+    "description":"AAA<br>takeda<img src='画像ファイル名'>",
     "availability":"2012-08-04T16:00:00Z/2012-08-04T17:04:54.9962195740191Z",
     "billboard":{
       "eyeOffset":{
