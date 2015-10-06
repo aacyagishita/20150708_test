@@ -5,12 +5,8 @@
 
 
 var viewer = new Cesium.Viewer('cesiumContainer', {
-  imageryProvider: new Cesium.OpenStreetMapImageryProvider({
-    url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
-    credit: new Cesium.Credit('‘“y’n—‰@', '', 'http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html')
-  }),
-  baseLayerPicker: false,
-  sceneMode : Cesium.SceneMode.SCENE2D
+    sceneMode : Cesium.SceneMode.SCENE2D,
+    baseLayerPicker: false
 });
 
   var layers = viewer.imageryLayers;
