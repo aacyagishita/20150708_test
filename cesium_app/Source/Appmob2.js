@@ -2,6 +2,8 @@
 // baseLayerPicker: false,
 // sceneMode : Cesium.SceneMode.SCENE2D });
 
+
+
 var viewer = new Cesium.Viewer('cesiumContainer', {
   imageryProvider: new Cesium.OpenStreetMapImageryProvider({
     url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
@@ -10,6 +12,13 @@ var viewer = new Cesium.Viewer('cesiumContainer', {
   baseLayerPicker: false,
   sceneMode : Cesium.SceneMode.SCENE2D
 });
+
+  var layers = viewer.imageryLayers;
+  var blackMarble = layers.addImageryProvider(new Cesium.TileMapServiceImageryProvider({
+      url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
+      credit: new Cesium.Credit('çëìyínóùâ@', '', 'http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html')
+  }));
+  blackMarble.saturation = 0.2;
 
 //viewer.scene.camera.setPositionCartographic(Cesium.Cartographic.fromDegrees(140.00, 36.14, 20000000.0));
 
