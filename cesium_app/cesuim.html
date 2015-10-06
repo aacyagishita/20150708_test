@@ -33,13 +33,14 @@
 <link href="https://cesiumjs.org/Cesium/Build/Cesium/Widgets/widgets.css" rel="stylesheet" />
 <div id="cesiumContainer"></div>
 <script>
-  var viewer = new Cesium.Viewer('cesiumContainer', {
-    imageryProvider: new Cesium.OpenStreetMapImageryProvider({
+  var viewer = new Cesium.Viewer('cesiumContainer');
+
+  var layers = viewer.imageryLayers;
+  var blackMarble = layers.addImageryProvider(new Cesium.TileMapServiceImageryProvider({
       url: 'http://cyberjapandata.gsi.go.jp/xyz/std/',
       credit: new Cesium.Credit('çëìyínóùâ@', '', 'http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html')
-    }),
-    baseLayerPicker: false
-  });
+  }));
+  blackMarble.saturation = 0.2;
 
     Sandcastle.addDefaultToolbarButton('Satellites', function() {
     viewer.dataSources.add(Cesium.CzmlDataSource.load('http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html'));
